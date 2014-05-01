@@ -1,0 +1,9 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#TabsToolbar {
+	-moz-box-ordinal-group: 2 !important;
+}
+
+#addon-bar {
+	-moz-box-ordinal-group: 3 !important;
+}
