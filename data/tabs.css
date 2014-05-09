@@ -6,4 +6,11 @@
 
 #addon-bar {
 	-moz-box-ordinal-group: 3 !important;
+	width: 100%;
+}
+
+#titlebar-placeholder-on-TabsToolbar-for-captions-buttons {
+	/*width: auto;
+	margin-left: 0;*/
+	display: none;
 }
