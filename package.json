@@ -5,5 +5,18 @@
 	"description": "Bring back the tabs on bottom feature !",
 	"author": "Alexandre Le Foll",
 	"license": "MPL 2.0",
-	"version": "0.5"
+	"version": "0.6",
+	"preferences": [{
+		"type": "color",
+		"name": "otherTabsColor",
+		"value": "#000",
+		"title": "Color of the other tabs"
+	},
+	{
+		"description": "Enable shadows on the other tabs",
+		"type": "bool",
+		"name": "otherTabsShadow",
+		"value": false,
+		"title": "Shadows"
+	}]
 }
