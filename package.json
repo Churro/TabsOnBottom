@@ -5,18 +5,18 @@
 	"description": "Bring back the tabs on bottom feature !",
 	"author": "Alexandre Le Foll",
 	"license": "MPL 2.0",
-	"version": "0.6",
+	"version": "0.6.1",
 	"preferences": [{
 		"type": "color",
 		"name": "otherTabsColor",
 		"value": "#000",
-		"title": "Color of the other tabs"
+		"title": "Text color of inactive tabs"
 	},
 	{
-		"description": "Enable shadows on the other tabs",
+		"description": "Enable shadows",
 		"type": "bool",
 		"name": "otherTabsShadow",
 		"value": false,
-		"title": "Shadows"
+		"title": "Displays a shadow around the text on inactive tabs"
 	}]
 }
