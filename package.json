@@ -5,7 +5,7 @@
 	"description": "Bring back the tabs on bottom feature !",
 	"author": "Alexandre Le Foll",
 	"license": "MPL 2.0",
-	"version": "0.6.2",
+	"version": "0.7",
 	"preferences": [{
 		"type": "color",
 		"name": "otherTabsColor",
@@ -18,5 +18,12 @@
 		"name": "otherTabsShadow",
 		"value": false,
 		"title": "Enable shadows"
+	},
+	{
+		"description": "Hide the search bar on new tab page",
+		"type": "bool",
+		"name": "searchBarNewTabPage",
+		"value": false,
+		"title": "Hide search bar"
 	}]
 }
