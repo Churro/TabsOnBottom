@@ -2,6 +2,7 @@
 
 #TabsToolbar {
 	-moz-box-ordinal-group: 2 !important;
+	-moz-appearance: none !important;
 }
 
 #addon-bar {
