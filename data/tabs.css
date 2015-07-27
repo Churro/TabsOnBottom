@@ -17,9 +17,9 @@
 @media (-moz-os-version: windows-vista),
        (-moz-os-version: windows-win7) {
 	#TabsToolbar {
-		border-left: 1px solid rgba(10, 31, 51, 0.35) !important;
+		/*border-left: 1px solid rgba(10, 31, 51, 0.35) !important;
 		border-right: 1px solid rgba(10, 31, 51, 0.35) !important;
-		background-color: #DBEAF9;
+		background-color: #DBEAF9;*/
 		
 		margin-top: 0px !important;
 	}
