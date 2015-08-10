@@ -1,7 +1,1 @@
-*.bat
-.xpi
-
-Git.txt
-
-*.sublime-project
-*.sublime-workspace
+*.xpi
