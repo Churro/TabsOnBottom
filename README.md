@@ -6,6 +6,9 @@ Bring back tabs on bottom feature !
 ============
 **Changelog :**
 
+    Version 1.2.0:
+       - Refactoring.
+
     Version 1.1.1:
        - Remove default background causing for some users drawback.
 

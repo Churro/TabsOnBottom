@@ -6,7 +6,7 @@
 	"description": "Bring back the tabs on bottom feature !",
 	"author": "Alexandre Le Foll",
 	"license": "MPL 2.0",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"preferences": [{
 		"type": "color",
 		"name": "otherTabsColor",
