@@ -1,7 +1,7 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 #TabsToolbar {
-	-moz-box-ordinal-group: 2 !important;
+	-moz-box-ordinal-group: 21 !important;
 }
 
 #addon-bar {
@@ -16,7 +16,7 @@
 @media (-moz-os-version: windows-vista),
        (-moz-os-version: windows-win7) {
 	#TabsToolbar {
-		margin-top: 0px !important;
+		margin-top: 0 !important;
 	}
 
 	#nav-bar {
@@ -26,4 +26,14 @@
 	#toolbar-menubar[autohide="false"] ~ #nav-bar {
 		margin-top: 1px !important;
 	}
+}
+
+@supports (-moz-osx-font-smoothing:auto) {
+	#titlebar {
+		margin-bottom: 0 !important;
+	}
+}
+
+toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#addon-bar):not(#nav-bar) {
+	-moz-box-ordinal-group: 20 !important;
 }
